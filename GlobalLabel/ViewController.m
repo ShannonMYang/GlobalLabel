@@ -22,10 +22,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
     
     
-    sphereView = [[DIXGlobalView alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, self.view.bounds.size.width)];
+    sphereView = [[DIXGlobalView alloc] initWithFrame:CGRectMake(0, (self.view.bounds.size.height - self.view.bounds.size.width) / 2, self.view.bounds.size.width, self.view.bounds.size.height)];
     NSMutableArray *array = [NSMutableArray arrayWithCapacity:0];
     for (NSInteger i = 0; i < 50; i ++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -40,7 +40,7 @@
         [sphereView addSubview:btn];
     }
     [sphereView setCloudTags:array];
-    sphereView.backgroundColor = [UIColor lightGrayColor];
+    sphereView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:sphereView];
 }
 
