@@ -13,6 +13,7 @@
 		B4BA2C8720EA520C00CA362E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4BA2C8620EA520C00CA362E /* Assets.xcassets */; };
 		B4BA2C8A20EA520C00CA362E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4BA2C8820EA520C00CA362E /* LaunchScreen.storyboard */; };
 		B4BA2C8D20EA520C00CA362E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BA2C8C20EA520C00CA362E /* main.m */; };
+		B4BA2C9720EA524500CA362E /* DIXGlobalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BA2C9620EA524500CA362E /* DIXGlobalView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,10 @@
 		B4BA2C8920EA520C00CA362E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4BA2C8B20EA520C00CA362E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4BA2C8C20EA520C00CA362E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4BA2C9320EA521B00CA362E /* DIXPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIXPoint.h; sourceTree = "<group>"; };
+		B4BA2C9420EA522600CA362E /* DIXMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIXMatrix.h; sourceTree = "<group>"; };
+		B4BA2C9520EA524500CA362E /* DIXGlobalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIXGlobalView.h; sourceTree = "<group>"; };
+		B4BA2C9620EA524500CA362E /* DIXGlobalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIXGlobalView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,10 @@
 				B4BA2C7E20EA520B00CA362E /* AppDelegate.m */,
 				B4BA2C8020EA520B00CA362E /* ViewController.h */,
 				B4BA2C8120EA520B00CA362E /* ViewController.m */,
+				B4BA2C9320EA521B00CA362E /* DIXPoint.h */,
+				B4BA2C9420EA522600CA362E /* DIXMatrix.h */,
+				B4BA2C9520EA524500CA362E /* DIXGlobalView.h */,
+				B4BA2C9620EA524500CA362E /* DIXGlobalView.m */,
 				B4BA2C8320EA520B00CA362E /* Main.storyboard */,
 				B4BA2C8620EA520C00CA362E /* Assets.xcassets */,
 				B4BA2C8820EA520C00CA362E /* LaunchScreen.storyboard */,
@@ -144,6 +153,7 @@
 				B4BA2C8220EA520B00CA362E /* ViewController.m in Sources */,
 				B4BA2C8D20EA520C00CA362E /* main.m in Sources */,
 				B4BA2C7F20EA520B00CA362E /* AppDelegate.m in Sources */,
+				B4BA2C9720EA524500CA362E /* DIXGlobalView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
